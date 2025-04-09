@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="frm.css">
+</head>
+
+<body>
+    <form action="#" method="post">
+        <!-- Name -->
+        <div class="input-group">
+            <input id="name" type="text" placeholder=" " required>
+            <label for="name">Name</label>
+        </div>
+
+        <!-- Date of Birth -->
+        <div class="input-group">
+            <input id="dob" type="date" required>
+            <label for="dob">Date of Birth</label>
+        </div>
+
+        <!-- Phone Number -->
+        <div class="input-group">
+            <input id="phone" type="tel" placeholder=" " required>
+            <label for="phone">Phone</label>
+        </div>
+
+        <!-- Password -->
+        <div class="input-group">
+            <input id="password" type="password" placeholder=" " required>
+            <label for="password">Password</label>
+        </div>
+
+        <!-- Email -->
+        <div class="input-group">
+            <input id="email" type="email" placeholder=" " required>
+            <label for="email">Email</label>
+        </div>
+
+        <!-- Gender -->
+        <div class="input-group">
+            <select id="gender" required>
+                <option value="" disabled selected>Select gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="others">Others</option>
+            </select>
+            <label for="gender">Gender</label>
+        </div>
+
+        <!-- Gender Style -->
+        <div class="input-group">
+            <select id="genderStyle" required>
+                <option value="" dōisabled selected>Select style</option>
+                <option value="sigma">Sigma</option>
+                <option value="alpha">Alpha</option>
+            </select>
+            <label for="genderStyle">Gender Style</label>
+        </div>
+
+        <!-- Subscription Plan -->
+        <div class="subscription">
+            <h4>Subscription Plan</h4>
+            <label>
+                <input id="basic" type="radio" name="sub" value="basic" required> Basic
+            </label>
+            <label>
+                <input id="vip" type="radio" name="sub" value="vip" required> VIP
+            </label>
+        </div>
+
+        <!-- Terms and Conditions -->
+        <div>
+            <label>
+                <input id="terms" type="checkbox" required> Accepting terms & conditions
+            </label>
+        </div>
+
+        <!-- Submit Button -->
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+
+</style>
+</head>
+</html>
